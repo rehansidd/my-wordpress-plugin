@@ -1,0 +1,38 @@
+/* Responsive form styles */
+#cef-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#cef-form .cef-form-field {
+    margin-bottom: 15px;
+}
+
+#cef-form .cef-form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#cef-form .cef-form-field input,
+#cef-form .cef-form-field textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#cef-message-result {
+    margin-top: 15px;
+    color: green;
+}
+
+@media (max-width: 768px) {
+    #cef-form {
+        padding: 15px;
+    }
+}
